@@ -16,7 +16,7 @@ html{
 	width: 100%;
     height: 100%;
     z-index: 50;
-    background: rgba(0,0,0,0.4) url(../img/overlay-pat.png);
+    background: rgba(0,0,0,0.4) url(../img/black-dot.png);
 }
 
 #scrollDown {
@@ -220,7 +220,7 @@ html{
 /* ----------- Reservations ------------- */
 .sub-page-reservations{
     height: 40%;
-    background-image: url("../img/reservations.jpg");
+    background-image: url("../img/banners/reservations.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -292,7 +292,7 @@ html{
 /* ----------- Events ------------- */
 .sub-page-events{
     height: 40%;
-    background-image: url("../img/events.jpg");
+    background-image: url("../img/banners/events.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ html{
 /* ----------- contact ------------- */
 .sub-page-contact{
     height: 40%;
-    background-image: url("../img/contact.jpg");
+    background-image: url("../img/banners/contact.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
