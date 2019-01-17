@@ -18,7 +18,7 @@ nav{
 .navbar-dark .navbar-toggler{
 	color: #ffffff;
 	font-size: 1.5rem;
-	border: 1px solid #ffffff;
+	border: none;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
@@ -32,11 +32,11 @@ nav{
 	width: 100vw;
 	height: 100vh;
 	background-image: url('../img/home-bg.jpg');
-/*	background-attachment: fixed;*/
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-color: #B10009;
+	background-attachment: fixed;
 }
 #home h1{
 	font-size: 5rem;
@@ -58,7 +58,7 @@ nav{
 	background-position: bottom;
 	background-repeat: repeat-x;
 	background-size: 35%;
-	background-color: #fff8ca;
+	background-color: #f9f5df;
 	background-image: url('../img/about-bg.png');
 }
 #about h2{
@@ -92,7 +92,7 @@ nav{
     top:30%;
 }
 #items{
-	background-color: #fff8ca;
+	background-color: #f9f5df;
     margin-left:20%;
     margin-top: 15%;
     margin-bottom: 10%;
@@ -160,6 +160,9 @@ nav{
 	padding-top: 5%; 
 	padding-bottom: 5%;
 	background-color: #B10009;
+	color: #ffffff;
+}
+.contact-info p{
 	color: #ffffff;
 }
 #contact h3{
@@ -236,5 +239,8 @@ nav{
 	.contact-info{
 		text-align: center;
 		margin-bottom: 30px;
+	}
+	#items{
+		margin-top: 120px;
 	}
 }

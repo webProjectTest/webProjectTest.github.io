@@ -12,11 +12,14 @@ $(document).ready(function() {
       }
     }
   });
-
+  //hide collapsible navbar on click
+  $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
   //get current year for copyright
   let year = new Date().getFullYear();
   $('#currentYear').text(year);
-
+  //add selected class to side menu
   $('.category').on('click', function(){
     $('.category').removeClass('selected');
     $(this).addClass('selected');
