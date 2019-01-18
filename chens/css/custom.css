@@ -67,7 +67,7 @@ nav{
 	background-position: bottom;
 	background-repeat: repeat-x;
 	background-size: 35%;
-	background-color: #f9f5df;
+	background-color: #ffffff;
 	background-image: url('../img/about-bg.png');
 }
 #about h2{
@@ -104,13 +104,13 @@ nav{
     height: 450px;
     width: 30%;
     right:80%;
-    top:30%;
+    top: 150px;
 }
 #items{
-	background-color: #f9f5df;
+	background-color: #f5efd0;
     margin-left:20%;
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 150px;
+    margin-bottom: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 5px;

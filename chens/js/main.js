@@ -27,5 +27,12 @@ $(document).ready(function() {
     $('.category').removeClass('selected');
     $(this).addClass('selected');
   });
+  $(window).on('resize', function() {
+    if($(window).width() < 992) {
+        $('#menu-list').addClass('collapse');
+    }else{
+        $('#menu-list').removeClass('collapse');
+    }
+})
 });
 
