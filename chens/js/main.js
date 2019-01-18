@@ -1,6 +1,12 @@
 $(window).on('load', function(){
-  $(".hameid-loader-overlay").hide();  
+  $(".hameid-loader-overlay").hide();
+    if($(window).width() < 992) {
+        $('#menu-list').addClass('collapse');
+    }else{
+        $('#menu-list').removeClass('collapse');
+    }
 });
+
 $(document).ready(function() {
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -33,6 +39,6 @@ $(document).ready(function() {
     }else{
         $('#menu-list').removeClass('collapse');
     }
-})
+  });
 });
 
